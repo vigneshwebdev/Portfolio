@@ -1,0 +1,241 @@
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Lato', sans-serif;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container .nav .nav-item .nav-link.active{
+    background-color: #FFFFFF;
+}
+
+.container .nav .nav-item .nav-link{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.container .nav .nav-item .nav-link:hover{
+    color:rgb(0, 119, 255);
+}
+
+#navsn{
+    background-color: #FFFFFF;
+}
+
+#navsn header{
+    border-bottom: 0.5px solid rgba(141, 135, 135, 0.194);
+    background-color:#FFFFFF;
+}
+
+#Home{
+    background-color: #f9f9f9;
+    padding-top:px;
+}
+
+#Home img{
+    background-color:white;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#Home h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#Home p{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #555555;
+}
+
+
+.bi-linkedin:hover{
+    fill:rgb(0, 119, 255);
+}
+
+.bi-github:hover{
+    fill:rgb(0, 119, 255);
+}
+
+#Home .intro1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#About img{
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;   
+}
+
+#About #ptxt h1{
+    font-size: 1.5rem;
+    font-weight:700;
+    color: #147EFB;    
+}
+
+#About #ptxt h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#About #ptxt p{
+    color: #555555;
+    font-size:1.5rem;
+    text-align: justify;
+}
+
+#Portfolio{
+    background-color: #f9f9f9;
+    padding-top: 50px;
+}
+
+#Portfolio #skills{
+    padding-top: 40px;
+}
+
+#Portfolio #skills,#edu h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #147EFB;
+}
+
+#Portfolio #skills1 h4,#Portfolio #skills2 h4, #edu h4{
+    color:black;
+    font-size: 2rem;
+}
+
+#Portfolio #skills1 li,#Portfolio #skills2 ul li{
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    color: #555555;
+    font-weight:400;
+    line-height: 30px;
+}
+
+#edu p{
+    font-family: 'Merriweather', serif;
+    color: #555555;
+    font-weight:400;
+    line-height: 30px;
+}
+
+#edu p span{
+    font-family: 'Poppins', sans-serif;
+    background-color: #9ca3b0;
+    color: rgb(255, 251, 251);
+    font-weight: 500;
+    padding: 1px 10px;
+}
+
+#edu h4{
+    color: black;
+}
+
+#Home{
+    height: 100vh;
+}
+
+#Portfolio{
+    height: 115vh;
+}
+
+
+@media (min-width:576px) and (max-width:999px){
+    #Home img{
+        width: 500px !important;
+        height: 600px !important;
+    }
+}
+
+#Contact{
+    height: 100%;
+    padding: 80px 150px;
+}
+
+#Contact #cnt h1{
+    font-size: 1.3rem !important;
+    font-weight:700 !important;
+    color: #147EFB !important;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#Contact #cnt h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#Contact #cnt1, #Contact #cnt2{
+    padding-top: 60px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#Contact #cnt1 h4, #Contact #cnt2 h4{
+    font-size: 1.5rem;
+}
+
+#Contact #cnt1 p, #Contact #cnt2 p{
+    font-size: 1.5rem;
+}
+
+#Contact .la, #Contact .lc{
+    height:90px;
+    width: 90px;
+    border-radius: 50%; 
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+#Contact #cnt1 .la, #Contact #cnt2 .lc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact .lb,#Contact .ld{
+    padding-top: 20px;
+}
+
+@media (max-width:999px){
+    #Home{
+        height: 100%;
+    }
+
+    #Portfolio{
+        height: 100%;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    #Portfolio #skills1{
+        padding-bottom: 30px;
+    }
+
+}
+
+#footer{
+    background-color: #393433;
+    height: 20vh;
+    padding: 40px;
+}
+
+#footer span{
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+
+@media (max-width:999px){
+    #footer{
+    padding: 20px;
+    height:100%;
+}
+}
