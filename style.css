@@ -203,7 +203,7 @@ body{
 @media (max-width:999px){
     #Home{
         height: 100%;
-        padding-top:0px;
+        padding-top: 0px;
     }
 
     #Portfolio{
