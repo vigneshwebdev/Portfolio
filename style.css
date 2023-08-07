@@ -49,11 +49,11 @@ body{
 }
 
 
-.bi-linkedin:hover{
+.bil:hover{
     fill:rgb(0, 119, 255);
 }
 
-.bi-github:hover{
+.bit:hover{
     fill:rgb(0, 119, 255);
 }
 
@@ -239,4 +239,12 @@ body{
     display: flex;
     justify-content: center;
 }
+}
+
+#footer #svg1,#footer #svg2{
+    transition: 0.5s;
+}
+
+#footer #svg1:hover,#footer #svg2:hover {
+    transform: scale(1.25);
 }
