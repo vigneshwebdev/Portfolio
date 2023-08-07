@@ -239,6 +239,9 @@ body{
     display: flex;
     justify-content: center;
 }
+    #Home h1 br{
+        content:'';
+    }
 }
 
 #footer #svg1,#footer #svg2{
