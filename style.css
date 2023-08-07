@@ -239,7 +239,7 @@ body{
     display: flex;
     justify-content: center;
 }
-    #Home h1 br{
+    #Home #para1 #btag br{
         content:'';
     }
 }
