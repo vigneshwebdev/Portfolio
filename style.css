@@ -235,4 +235,8 @@ body{
     padding: 20px;
     height:100%;
 }
+    #Home #img{
+    display: flex;
+    justify-content: center;
+}
 }
